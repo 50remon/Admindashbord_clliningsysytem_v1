@@ -1,0 +1,39 @@
+name: clinic_system_patient
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_screenutil: ^5.6.0
+  google_fonts: ^4.0.3
+  flutter_localizations:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.0
+  pin_code_fields: ^7.4.0
+  flutter_countdown_timer: ^3.0.1
+
+  intl: ^0.17.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
